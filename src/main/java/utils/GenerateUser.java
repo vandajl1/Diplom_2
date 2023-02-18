@@ -4,8 +4,6 @@ import io.qameta.allure.Allure;
 import entity.User;
 import org.apache.commons.lang3.RandomStringUtils;
 
-
-
 public class GenerateUser {
     public static User getRandomUser() {
         String name = RandomStringUtils.randomAlphabetic(8);
